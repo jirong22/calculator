@@ -33,7 +33,11 @@ public class Main {
                     break;
 
                 case '/':
-                    result = num1 / num2;
+                    if (num2 == 0) {
+                        System.out.println("0으로 나눌수 없습니다.");
+                        break;
+                    }
+                    result = (double) num1 / num2;
                     break;
 
                 default:
