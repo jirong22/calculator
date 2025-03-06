@@ -36,7 +36,7 @@ public class Calculator {
             System.out.println("0으로 나눌수 없습니다."); //0일경우만
             return 0;
         }
-        return (double) num1 / num1;
+        return (double) num1 / num2;
     }
 
 }
